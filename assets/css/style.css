@@ -1,0 +1,131 @@
+
+/* IMPOSTAZIONI GENERALI */
+body {
+   background-image: url(/26-10-23/esercizio/assets/img/sfondo.png);
+      
+}
+h1 {
+    font-size: 45px;
+    padding: 15px;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+p {
+    padding: 10px;
+    font-size: 20px;
+}
+
+   
+
+
+
+
+
+/* HEADER */
+header {
+    background: rgb(0,153,187);
+    background: linear-gradient(84deg, rgba(0,153,187,1) 0%, rgba(42,133,164,1) 76%);
+    text-transform: uppercase;
+    padding: 20px;
+    border: 5px solid black;
+    margin: auto;
+    width: 95%;
+    box-sizing: border-box;    
+    text-align: center;
+    
+}
+ 
+header img {
+    width: 300px;
+    box-sizing: border-box;
+
+}
+
+header p {
+   padding: 20px 5px;
+    color: white;
+}
+
+
+nav li {
+    margin: 10px;
+}
+
+nav a {
+    color:white
+}
+
+/* MAIN */
+main {
+    background-color: white;
+    width: 90%;
+    box-sizing: border-box;  
+    margin: 5%
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+.info {
+    color: grey;
+    
+}
+.strong strong {
+    color: blueviolet;
+}
+.pallini {
+    list-style-type: disc;
+    margin: 5%;
+    
+}
+
+.pallini code {
+    background-color: lightgrey;
+}
+
+.numerata {
+    list-style-type: decimal;
+    margin: 5%;
+}
+/* TABELLE */
+
+tr:nth-child(even) {
+background-color: lightgrey;
+}
+
+
+
+td {
+    padding: 20px;
+    
+}
+
+table {
+  margin: auto;
+  text-align: center;
+  
+  
+}
+
+iframe {
+    display: block;
+    border-radius: 30px;
+    padding: 20px 20px;
+}
+/* FORM */
+section {
+    background: lightgrey;
+    padding:15%;
+}
+/* ELEMENTI NELL' ASIDE */
+aside div {
+    background: lightgrey;
+    margin: 15px;
+}
+/* FOOTER */
+footer{
+    background-color: darkgreen;
+    
+
+}
